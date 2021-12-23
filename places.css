@@ -11,10 +11,11 @@ main li img{
     object-fit: cover;
 }
 main ul{
-    width: 1200px;
+    width: 90%;
+    /* box-sizing: content-box; */
+    /* width: 1400px; */
     margin: 0 auto 49px auto;
     /* padding: 10px; */
-    /* margin-left:55px ; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px 20px;
@@ -32,11 +33,27 @@ main li{
 li:nth-of-type(3){
     grid-column: 1/ span 2;
 }
+li:nth-of-type(3) a{
+    position: relative;
+    left: 70px;
+}
 li:nth-of-type(6){
     grid-column: 1/ span 2;
 }
+li:nth-of-type(6) a{
+    position: relative;
+    left: 70px;
+}
 li:nth-of-type(9){
     grid-column: 1/ span 2;
+}
+li:nth-of-type(9) a{
+    position: relative;
+    left: 70px;
+}
+li:nth-of-type(10){
+    position: relative;
+    left: 280px;
 }
 header{
     position: static;
