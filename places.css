@@ -38,7 +38,6 @@ li:nth-of-type(6){
 li:nth-of-type(9){
     grid-column: 1/ span 2;
 }
-
 header{
     position: static;
 
